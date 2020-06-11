@@ -1,1 +1,1 @@
-# STRICT
+# STRICT PSD
