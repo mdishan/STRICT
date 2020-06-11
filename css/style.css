@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER PART */
+
+header{
+    background-color: #f6f9f9;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #2d3950;
+    font-weight: 700;
+}
+.navbar {
+    padding: 20px 0px;
+}
+/* HEADER PART */
+
+/* BANNER PART */
+
+.banner{
+    background-image: url(../images/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+}
+.hg{
+    height: 600px;
+}
+.content{
+    
+text-align: center;
+}
+.content h1{
+
+color: #fff;
+
+font-size: 80px;
+}
+.content span{
+
+display: inline-block;
+
+height: 3px;
+
+width: 100%;
+
+background: #15a4fa;
+}
+.content p{
+
+color: #fff;
+
+margin: 20px;
+}
+.btn-custom{
+
+background: transparent;
+
+border: 1px solid #15a4fa;
+
+margin-top: 15px;
+}
+.btn-custom:hover{
+    background: #15a4fa;
+}
+.icon{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-10%, -50%);
+    animation: icon-ani .7s linear infinite;
+    animation-direction: alternate;
+}
+.icon i{
+
+color:#fff;
+
+font-size: 25px;
+}
+@keyframes icon-ani{
+    0%{
+        transform: translate(-10%, 20%);
+    }
+    100%{
+        transform: translate(-10%, -60%);
+    }
+}
+
+/* BANNER PART */
+
+
+/* DESIGN PART */
+
+.design{
+    background: #f6f9f9;
+}
+.design h1{
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+}
+.design p{
+    color:#999999;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* DESIGN PART */
+
+/* FEATURE SECTION */
+
+.feature-section{
+
+}
+.icon-box{
+
+height: 100px;
+
+width: 100px;
+
+font-size: 50px;
+
+text-align: center;
+
+line-height: 100px;
+
+color: #fff;
+margin: auto;
+
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+1,2989d8+49,207cca+51,5fc3ff+51 */
+background: rgb(72,186,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(72,186,255,1) 1%, rgba(41,137,216,1) 49%, rgba(32,124,202,1) 51%, rgba(95,195,255,1) 51%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 1%,rgba(41,137,216,1) 49%,rgba(32,124,202,1) 51%,rgba(95,195,255,1) 51%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 1%,rgba(41,137,216,1) 49%,rgba(32,124,202,1) 51%,rgba(95,195,255,1) 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+}
+.icon-box i{
+
+}
+.feature-content{
+
+}
+.feature-content h4{
+margin: 15px 0;
+}
+.feature-content p{
+    
+}
+
+
+/* FEATURE SECTION */
+
+/* SHOWCASE SECTION */
+
+.showcase{
+    background-color: #f6f9f9;
+}
+.showcase-content{
+
+}
+.showcase-content h2{
+
+}
+.showcase-content p{
+
+}
+.image{
+    
+position: relative;
+    
+margin-bottom: 30px;
+    
+box-sizing: border-box;
+    
+overflow: hidden;
+}
+.image::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: #5fc3ff94;
+    transition: all 0.4s ease;
+}
+.image:hover::before{
+    bottom: 100%;
+    height: 100%;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.image:hover .icon-items{
+opacity: 1;
+}
+.icon-items{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+color: #fff;
+
+font-size: 25px;
+
+opacity: 0;
+
+float: left;
+}
+
+.icon-items i{
+
+border: 1px solid #fff;
+
+border-radius: 5px;
+
+padding: 10px;
+
+margin-left: 5px;
+
+float: left;
+
+/* margin-right: 10px; */
+
+align-items: right;
+}
+
+
+/* SHOWCASE SECTION */
+
+/* FORM SECTION */
+
+.contact-form{
+    background-image: url(../images/contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact-form::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #2c374bb8;
+}
+.contact-content{
+
+color: #fff;
+
+margin: 30px 0;
+
+text-align: center;
+}
+.contact-content h2{
+
+}
+.contact-content p{
+
+}
+form input{
+
+width: 100%;
+
+margin: 10px 0;
+
+height: 35px;
+
+border: none;
+
+background: transparent;
+
+border-radius: 5px;
+
+border: 1px solid #999999;
+
+padding: 10px;
+}
+form textarea{
+
+width: 100%;
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #999999;
+
+border-radius: 5px;
+}
+input[type=checkbox]{
+    height: 15px;
+    width: 13px;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 6px;
+    color: #9ba1aa;
+}
+.subscribe{
+
+}
+.subscribe ul{
+
+list-style: none;
+}
+.subscribe li{
+
+float: left;
+
+color: #fff;
+}
+.btn-contact{
+
+float: right;
+
+margin: 0;
+
+color: #fff;
+}
+input::placeholder{
+    color: #88898c;
+}
+
+/* FORM SECTION */
+
+/* FOOTER SECTION */
+
+footer{
+    background: #f6f9f9;
+    /* padding: 15px; */
+    padding: 15px;
+    
+}
+footer p{
+    
+margin-top: 15px;
+    
+color: #aeafaf;
+margin-left: 35px;
+
+}
+footer .right{
+
+text-align: right;
+
+margin-top: 10px;
+}
+footer .right a{
+    
+height: 40px;
+    
+width: 35px;
+    
+display: inline-block;
+    
+background: #15a4fa;
+    
+font-size: 18px;
+    
+color: #fff;
+    
+text-align: center;
+    
+border-radius: 5px;
+    
+padding: 5px;
+}
+
+/* FOOTER SECTION */
